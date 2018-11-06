@@ -5,13 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "buildExtensionScripts": "tsc -p extensionTsconfig.json",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.117",
+    "lodash": "^4.17.11",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
+    "vue-js-toggle-button": "^1.3.0",
     "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -28,8 +32,10 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "ts-jest": "^23.0.0",
-    "typescript": "^3.0.0",
-    "vue-template-compiler": "^2.5.17"
+    "ts-loader": "^5.2.2",
+    "typescript": "^3.1.3",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-cli": "^3.1.2"
   },
   "postcss": {
     "plugins": {

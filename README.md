@@ -1,4 +1,7 @@
-# shitblocker
+# ShitBlocker
+
+## Motivation
+Haven't it, to write this one
 
 ## Project setup
 ```
@@ -15,7 +18,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### Run tests
 ```
 npm run test
 ```
@@ -25,7 +28,18 @@ npm run test
 npm run lint
 ```
 
-### Run your unit tests
+### Run unit tests
 ```
 npm run test:unit
 ```
+
+### Compiles extension scripts
+```
+webpack
+```
+Run from extensionScripts folder
+
+## TODO
+
+- Proper icon
+- Settings
