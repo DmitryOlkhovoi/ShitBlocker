@@ -40,6 +40,4 @@ webpack
 Run from extensionScripts folder
 
 ## TODO
-
-- Proper icon
-- Settings
+See https://github.com/DmitryOlkhovoi/ShitBlocker/projects/1
