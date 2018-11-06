@@ -1,4 +1,5 @@
 # ShitBlocker
+Removes shit from the Internet
 
 ## Motivation
 Haven't it, to write this one
