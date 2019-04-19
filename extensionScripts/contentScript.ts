@@ -1,4 +1,4 @@
-import preDefinedRules from './preDefinedRules/index';
+const preDefinedRules = [];
 
 /**
  * Returns rules for particular host
