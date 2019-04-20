@@ -22,7 +22,7 @@ function findElements(selector: any): NodeListOf<Element> {
  * @param element element to remove
  */
 function removeElement(element: Element) {
-    element.remove();
+    element && element.remove();
 }
 
 /**
