@@ -1,5 +1,5 @@
-import douDictionary from './dictionaries/dou.ua';
-import { findByXpath, findByLink } from './u';
+import douDictionary from './dictionaries/dou.ua'
+import { findByXpath, findByLink } from './u'
 
 export default [
     {
@@ -22,7 +22,7 @@ export default [
         ]
     },
     {
-        host: 'censor.net.ua',
+        host: 'censor.net.ua', // Are you okay?
         remove: [
             'body'
         ]
@@ -30,7 +30,7 @@ export default [
     {
         host: 'itc.ua',
         remove: [
-            '#disqus_thread'
+            '#disqus_thread' // Protection from xiaomi/android lovers
         ]
     }
 ];

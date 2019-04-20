@@ -14,7 +14,7 @@ export default {
         '//a[contains(text(), "зеленс")]'
     ],
 
-    // Users that discuss politic
+    // Users that discuss politics
     users: [
         'https://dou.ua/users/azhuk/',
         'https://dou.ua/users/artem-komisarenko/',

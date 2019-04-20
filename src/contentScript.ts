@@ -3,10 +3,10 @@
  * Deals with shit
  */
 
-import _ from 'underscore';
-import { from } from 'rxjs';
-import { filter, map, mergeAll } from 'rxjs/operators';
-import preDefinedShit from './preDefinedShit';
+import _ from 'underscore'
+import { from } from 'rxjs'
+import { filter, map, mergeAll } from 'rxjs/operators'
+import preDefinedShit from './preDefinedShit'
 
 /**
  * Finds elements on a page
