@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "buildExtensionScripts": "tsc extensionScripts/contentScript.ts --outDir public/dist"
+    "build": "parcel src/contentScript.ts --out-dir public/dist",
+    "buildExtensionScripts": "tsc"
   },
   "dependencies": {
-   
+    "@types/underscore": "^1.8.14",
+    "parcel": "^1.12.3",
+    "rxjs": "^6.4.0",
+    "underscore": "^1.9.1"
   },
   "devDependencies": {
     "typescript": "^3.1.3"
