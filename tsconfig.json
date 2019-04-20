@@ -10,7 +10,6 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "outFile": "public/dist/contentScript.js",
     "paths": {
       "@/*": [
         "src/*"

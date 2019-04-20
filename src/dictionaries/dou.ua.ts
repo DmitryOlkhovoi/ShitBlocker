@@ -9,6 +9,7 @@ export default {
         '//a[contains(text(), "Зеленс")]',
         '//a[contains(text(), "вибори")]',
         '//a[contains(text(), "выборы")]',
+        '//a[contains(text(), "голосо")]',
         '//a[contains(text(), "президент")]',
         '//a[contains(text(), "порох")]',
         '//a[contains(text(), "зеленс")]'
