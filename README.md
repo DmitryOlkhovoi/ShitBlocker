@@ -1,44 +1,29 @@
 # ShitBlocker
-Removes shit from the Internet
+Removes shit from the Internet (Chrome Extension)
 
 ## Motivation
-Haven't it, to write this one
+![](https://memegenerator.net/img/instances/71061530.jpg)
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### Compiles and minifies for production (extension scripts)
 ```
 npm run build
 ```
 
+### Install extension
+![](https://developer.chrome.com/static/images/get_started/load_extension.png)
+
+- Go to `Extensions` settings
+- Turn on `Developer mode`
+- Load extention from the `public` directory
+- !!!
+
 ### Run tests
-```
-npm run test
-```
+Why?
 
 ### Lints and fixes files
-```
-npm run lint
-```
-
-### Run unit tests
-```
-npm run test:unit
-```
-
-### Compiles extension scripts
-```
-webpack
-```
-Run from extensionScripts folder
-
-## TODO
-See https://github.com/DmitryOlkhovoi/ShitBlocker/projects/1
+???

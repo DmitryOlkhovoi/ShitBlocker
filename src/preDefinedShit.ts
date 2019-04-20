@@ -47,5 +47,17 @@ export default [
             '.mini-header', // Ad
             '.b-sponsors' // Ad
         ]
+    },
+    {
+        host: 'censor.net.ua',
+        remove: [
+            'body'
+        ]
+    },
+    {
+        host: 'itc.ua',
+        remove: [
+            '#disqus_thread'
+        ]
     }
 ];
